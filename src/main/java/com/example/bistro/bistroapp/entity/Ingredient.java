@@ -14,6 +14,7 @@ public class Ingredient {
     private String name;
     private double cost;
 
+    // una ii de la product 
 @ManyToMany(mappedBy = "ingredients")
 private Set<Product> products = new HashSet<>();
 
